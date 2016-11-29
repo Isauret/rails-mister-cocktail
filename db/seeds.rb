@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+url = "http://res.cloudinary.com/dkfte1znw/image/upload/v1480077323/x4kcprzhivongz6mjvlk.jpg"
+cocktail = Product.new(name: 'NES')
+cocktail.remote_photo_url = url
+cocktail.save

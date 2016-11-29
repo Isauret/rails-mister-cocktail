@@ -20,6 +20,9 @@ gem 'coffee-rails', '~> 4.2'
 
 gem 'cloudinary', '1.1.0'
 gem 'figaro'
+gem 'carrierwave'
+
+gem "simple_form"
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
